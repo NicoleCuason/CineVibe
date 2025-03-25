@@ -1,0 +1,21 @@
+.upcoming {
+    padding: 5px;
+  }
+  
+  .movies-grid {
+    display: grid;
+    gap: 5px;
+  }
+  
+  .loading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  

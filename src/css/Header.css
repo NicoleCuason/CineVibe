@@ -1,0 +1,46 @@
+.header {
+  background-color: #03469d;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header-navlinks {
+  display: flexbox;
+  gap: 1rem;
+}
+
+.header-navlinks {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+}
+
+.header-navlinks:hover {
+  background-color: rgba(61, 124, 159, 0.743);
+}
+
+@media (max-width: 800px) {
+  .header {
+    padding: 1rem;
+  }
+
+  .header-brand {
+    font-size: 3rem;
+  }
+
+  .header-navlinks {
+    gap: 1.5rem;
+  }
+
+  .header-navlinks {
+    padding: 1rem;
+  }
+}
